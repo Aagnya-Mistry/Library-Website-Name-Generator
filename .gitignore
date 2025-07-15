@@ -1,0 +1,24 @@
+# Ignore virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment/config/secret keys
+.env
+secret_key.py
+abc.py
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore video recordings or large files
+*.mp4
+
+# Ignore logs or temporary files
+*.log
+*.tmp
